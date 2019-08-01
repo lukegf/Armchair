@@ -1795,7 +1795,7 @@ open class Manager : ArmchairManager {
     
     @objc public func appWillResignActive(_ notification: Notification) {
         debugLog("appWillResignActive:")
-        hideRatingAlert()
+        //hideRatingAlert()
     }
     
     @objc public func applicationDidFinishLaunching(_ notification: Notification) {
